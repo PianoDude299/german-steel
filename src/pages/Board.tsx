@@ -7,7 +7,7 @@ const boardMembers = [
   {
     name: 'Eid Mohammed Humaid Alhamrani Alshamsi',
     role: 'Chairman',
-    image: 'src/images/chairman.jpg',
+    image: 'public/images/chairman.jpg',
     quote:
       'Mr. Eid Mohammed Alhamrani serves as the Chairman of German Steel Group. ',
     description:
@@ -16,14 +16,14 @@ const boardMembers = [
   {
     name: 'Faisal Chungath',
     role: 'Chief Executive Officer(CEO)',
-    image: 'src/images/chairman.jpg',
+    image: 'public/images/chairman.jpg',
     quote: 'Mr. Faisal Chungath is the Chief Executive Officer and Managing Director of German Steel Group. He holds a Bachelor\'s degree in Civil Engineering from the College of Engineering, Trivandrum, and a Master’s degree in Structural Engineering from Christ University.',
     description:'Having moved to the UAE in 2000, Mr. Faisal has gained extensive experience across the structural steel industry. He began his career in India, where he gained years of hands-on experience in the structural steel industry. In 2000, he relocated to the UAE and continued to build his expertise in steel industry through various leadership roles. In 2007, leveraging his technical acumen and entrepreneurial drive, he established German Steel Contracting LLC, which has since grown into a leading name in steel engineering and construction across the Middle East.'
   },
   {
     name: 'Zubair Mozhikkal',
     role: 'General Manager',
-    image: 'src/images/chairman.jpg',
+    image: 'public/images/chairman.jpg',
     quote: 'Mr. Zubair Mozhikkal is the General Manager of German Steel Group, bringing over 25 years of extensive experience in the structural steel industry. A Mechanical Engineering graduate from the University of Calicut, he also holds a Master of Business Administration in Financial Management.',
     description: 'Since joining German Steel in 2008, Mr. Zubair has been instrumental in enhancing the company’s operational systems and contractual governance. With a structured and analytical mindset, he brings clarity to complex project workflows and ensures disciplined execution at every level. His leadership emphasizes stability, internal cohesion, and a well-organized working environment—promoting a culture where focus, responsibility, and team synergy are valued. This approach has been key to maintaining German Steel’s reputation for reliability and technical excellence across its portfolio.'
   },

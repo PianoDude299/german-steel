@@ -21,7 +21,7 @@ const projects: Project[] = [
     date: "March 2020",
     description: "Dubai Electricity & Water Authority’s cutting-edge solar R&D centre.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/01-DEWA-R&D-Lab.jpg"
+    image: "public/images/index-banner/01-DEWA-R&D-Lab.jpg"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Eco‑focused pavilion with a leaf‑shaped solar canopy and garden.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/02-Azerbaijan-Pavilion.jpg"
+    image: "public/images/index-banner/02-Azerbaijan-Pavilion.jpg"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Mobility‑themed pavilion with dynamic façade and skywalk ramps.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/03-Korea-Pavilion.jpg"
+    image: "public/images/index-banner/03-Korea-Pavilion.jpg"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const projects: Project[] = [
     date: "2022",
     description: "State‑of‑the‑art automotive showroom showcasing Toyota models.",
     location: "Abu Dhabi, UAE",
-    image: "src/images/index-banner/04-Toyota-Showroom-Abu-Dhab-i20170724-Al-Futtaim-Motors-HM-03.jpg"
+    image: "public/images/index-banner/04-Toyota-Showroom-Abu-Dhab-i20170724-Al-Futtaim-Motors-HM-03.jpg"
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const projects: Project[] = [
     date: "January 2007",
     description: "Dubai Festival City Mall, major waterfront retail & leisure complex.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/06-DFC-Mall.jpg"
+    image: "public/images/index-banner/06-DFC-Mall.jpg"
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Netherlands pavilion highlighting sustainable urban design.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/07-Netherland-Pavilion.jpg"
+    image: "public/images/index-banner/07-Netherland-Pavilion.jpg"
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const projects: Project[] = [
     date: "2023",
     description: "Modern international school focused on holistic education.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/08-Bloom-School.jpg"
+    image: "public/images/index-banner/08-Bloom-School.jpg"
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const projects: Project[] = [
     date: "2020",
     description: "Luxury hotel offering premium hospitality in Dubai.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/09-Movenpick-Resort.jpg"
+    image: "public/images/index-banner/09-Movenpick-Resort.jpg"
   },
   {
     id: 9,
@@ -85,7 +85,7 @@ const projects: Project[] = [
     date: "2021",
     description: "Contemporary Hampton by Hilton hotel in Ras Al Khaimah.",
     location: "Ras Al Khaimah, UAE",
-    image: "src/images/index-banner/10-Hampton-RAK.jpg"
+    image: "public/images/index-banner/10-Hampton-RAK.jpg"
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Interactive food‑service pavilion by the Talabat brand.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/11-Talabat.jpg"
+    image: "public/images/index-banner/11-Talabat.jpg"
   },
   {
     id: 11,
@@ -101,7 +101,7 @@ const projects: Project[] = [
     date: "2022",
     description: "Modern retail lounge area within Abu Dhabi International Airport.",
     location: "Abu Dhabi, UAE",
-    image: "src/images/index-banner/12-Midfield-Terminal.jpg"
+    image: "public/images/index-banner/12-Midfield-Terminal.jpg"
   },
   {
     id: 12,
@@ -109,7 +109,7 @@ const projects: Project[] = [
     date: "2021",
     description: "Resort‑style Hilton overlooking Yas Marina and Abu Dhabi GP circuit.",
     location: "Abu Dhabi, UAE",
-    image: "src/images/index-banner/13-Hilton-Hotel.jpg"
+    image: "public/images/index-banner/13-Hilton-Hotel.jpg"
   },
   {
     id: 13,
@@ -117,7 +117,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Immersive pavilion showcasing US innovation and culture.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/14-USA-Pavilion.jpg"
+    image: "public/images/index-banner/14-USA-Pavilion.jpg"
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Slovenian pavilion themed on green, active & healthy living.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/15-Slovanian-pavilion.jpg"
+    image: "public/images/index-banner/15-Slovanian-pavilion.jpg"
   },
   {
     id: 15,
@@ -133,7 +133,7 @@ const projects: Project[] = [
     date: "November 1995",
     description: "Flagship Majid Al Futtaim mall in historic Deira district.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/16-Diera-City-Center.jpg"
+    image: "public/images/index-banner/16-Diera-City-Center.jpg"
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const projects: Project[] = [
     date: "2022",
     description: "Upscale supermarket branch serving Motor City community.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/17-Waitrose.jpg"
+    image: "public/images/index-banner/17-Waitrose.jpg"
   },
   {
     id: 17,
@@ -149,7 +149,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Nordic pavilion highlighting Finnish innovation & nature.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/18-Finland-Pavilion.jpg"
+    image: "public/images/index-banner/18-Finland-Pavilion.jpg"
   },
   {
     id: 18,
@@ -157,7 +157,7 @@ const projects: Project[] = [
     date: "October 2021",
     description: "Thai pavilion celebrating culture, cuisine & wellness.",
     location: "Dubai, UAE",
-    image: "src/images/index-banner/19-Thailand-pavilion.jpg"
+    image: "public/images/index-banner/19-Thailand-pavilion.jpg"
   }
 ];
 

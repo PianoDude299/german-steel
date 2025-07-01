@@ -24,7 +24,7 @@ const services: Service[] = [
     id: 1,
     title: "STRUCTURAL DESIGN",
     icon: <Compass className="w-8 h-8" />,
-    image: "src/images/services/structural-design.jpg",
+    image: "public/images/services/structural-design.jpg",
     description: "Comprehensive structural engineering solutions for complex steel frameworks and architectural designs.",
     details: [
       "Design of complete steel frames and connections",
@@ -44,7 +44,7 @@ const services: Service[] = [
     id: 2,
     title: "DETAILING SERVICE & BIM",
     icon: <FileText className="w-8 h-8" />,
-    image: "src/images/services/Detailing-Service-&-BIM.jpg",
+    image: "public/images/services/Detailing-Service-&-BIM.jpg",
     description: "Precision steel detailing and Building Information Modeling for accurate construction documentation.",
     details: [
       "3D modeling and detailing using Tekla Structures",
@@ -64,7 +64,7 @@ const services: Service[] = [
     id: 3,
     title: "FABRICATION",
     icon: <Wrench className="w-8 h-8" />,
-    image: "src/images/services/Fabrication.jpg",
+    image: "public/images/services/Fabrication.jpg",
     description: "State-of-the-art steel fabrication services with precision manufacturing and quality control.",
     details: [
       "ISO 9001 certified fabrication processes",
@@ -84,7 +84,7 @@ const services: Service[] = [
     id: 4,
     title: "PAINTING / SURFACE TREATMENT",
     icon: <Palette className="w-8 h-8" />,
-    image: "src/images/services/Painting-Surface-Treatmeant.jpg",
+    image: "public/images/services/Painting-Surface-Treatmeant.jpg",
     description: "Professional surface treatment and protective coating systems for long-lasting steel structures.",
     details: [
       "Shot blasting to achieve SA 2.5 grade finish",
@@ -104,7 +104,7 @@ const services: Service[] = [
     id: 5,
     title: "STEELWORK ERECTION",
     icon: <Building className="w-8 h-8" />,
-    image: "src/images/services/structural-steel-erection-services.jpg",
+    image: "public/images/services/structural-steel-erection-services.jpg",
     description: "Expert steel erection services with safety-first approach and precision installation techniques.",
     details: [
       "Skilled erection crew and site personnel",
@@ -124,7 +124,7 @@ const services: Service[] = [
     id: 6,
     title: "DECKING ROOFING & CLADDING",
     icon: <Home className="w-8 h-8" />,
-    image: "src/images/services/Decking-Roofing-&-Cladding.jpg",
+    image: "public/images/services/Decking-Roofing-&-Cladding.jpg",
     description: "Complete building envelope solutions including roofing systems and architectural cladding.",
     details: [
       "Supply and installation of insulated panels and decks",
@@ -144,7 +144,7 @@ const services: Service[] = [
     id: 7,
     title: "VALUE ENGINEERING",
     icon: <TrendingUp className="w-8 h-8" />,
-    image: "src/images/services/Value-Engineering.jpg",
+    image: "public/images/services/Value-Engineering.jpg",
     description: "Strategic optimization services to maximize project value while maintaining quality and performance.",
     details: [
       "Review of pre-designed steel projects",

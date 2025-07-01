@@ -48,7 +48,7 @@ const ChairmanSection: React.FC = () => {
                   className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 border-2 border-yellow-400 shadow-2xl transition-all duration-300 group-hover:scale-105 group-hover:rotate-2"
                   style={{
                     
-                    backgroundImage: 'url(src/images/chairman.jpg)',
+                    backgroundImage: 'url(public/images/chairman.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
