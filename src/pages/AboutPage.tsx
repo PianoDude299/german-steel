@@ -103,7 +103,7 @@ const AboutPage: React.FC = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                   <img
-                    src="public/images/about-us/1.jpg"
+                    src="/images/about-us/1.jpg"
                     alt="Professional team at German Steel Contracting"
                     className="w-full h-full object-cover"
                   />
@@ -162,7 +162,7 @@ const AboutPage: React.FC = () => {
               <div className="relative">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                   <img
-                    src="public/images/about-us/1 (1).jpg"
+                    src="/images/about-us/1 (1).jpg"
                     alt="Modern infrastructure and teamwork"
                     className="w-full h-full object-cover"
                   />
@@ -227,7 +227,7 @@ const AboutPage: React.FC = () => {
                 <div className="relative h-full min-h-[400px]">
                   <div className="aspect-[3/4] lg:aspect-auto lg:h-full rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                     <img
-                      src="public/images/about-us/mv-banner.jpg"
+                      src="/images/about-us/mv-banner.jpg"
                       alt="Strategic vision and forward-thinking"
                       className="w-full h-full object-cover"
                     />
