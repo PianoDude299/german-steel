@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
+import ParticleBackground from '../components/ParticleBackground';
+
 
 const ChairmanSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,7 +24,11 @@ const ChairmanSection: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative py-20 bg-black">
+    <section ref={sectionRef} className="relative py-20 bg-black overflow-hidden">
+
+      {/* Section-specific particle effect */}
+      <ParticleBackground />
+
       {/* Subtle texture overlay */}
       <div className="absolute inset-0 opacity-5 bg-gradient-to-br from-yellow-400/10 via-transparent to-yellow-400/5"></div>
       
@@ -79,16 +85,17 @@ const ChairmanSection: React.FC = () => {
 
             {/* Quote text */}
             <blockquote className="relative z-10 mb-8">
-              <p className="text-2xl lg:text-3xl font-serif italic text-white leading-relaxed mb-6">
-                "At German Steel, steel engineering is not merely a craft—it is a commitment. Over the past two decades, we have played a vital role in shaping the UAE’s skyline with precision-driven structures that stand the test of time."
+              <p className="text-2xl lg:text-2xl font-serif italic text-white leading-relaxed mb-6">
+                "At German Steel, steel engineering is not merely a craft—it is a commitment. Over the past two decades, we have played a vital role in shaping the UAE’s skyline with precision-driven structures that stand the test of time.
+From complex high-rise frames to fast-track industrial solutions, our legacy is built on engineering integrity, customer trust, and an unrelenting focus on quality."
+
               </p>
             </blockquote>
 
             {/* Supporting paragraph */}
             <div className="relative z-10">
               <p className="text-gray-400 text-lg leading-relaxed font-sans">
-                From complex high-rise frames to fast-track industrial solutions, our legacy is built on engineering integrity, customer trust, and an unrelenting focus on quality.
-                Under my leadership, German Steel has evolved into one of the UAE's most trusted names in structural steel contracting. With full in-house capability—from design, fabrication, to on-site erection—we bring every project to life with safety, speed, and structural excellence at its core.
+                Under my leadership, German Steel has evolved into one of the UAE's most trusted names in structural steel contracting. With full in-house capability—from design, fabrication, to on-site erection—we bring every project to life with safety, speed, and structural excellence at its core.<br></br><br></br>
                 Our continuous investment in innovation, workforce development, and compliance with international standards reflects our vision: to be the partner of choice for steel solutions that define modern infrastructure.
                 We remain committed to delivering excellence across every project, large or small, as we continue to contribute to the region’s ambitious growth with purpose and pride.
               </p>

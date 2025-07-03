@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { CheckCircle, Target, Eye, Users, Award, Clock, Shield, Globe } from 'lucide-react';
 import ParticleBackground from '../components/ParticleBackground';
+import ChairmanSection from '../components/ChairmanSection';
 
 const Content: React.FC = () => {
   const [visibleSections, setVisibleSections] = useState<number[]>([]);
@@ -47,7 +48,7 @@ const Content: React.FC = () => {
         <ParticleBackground />
       </div>
       
-      
+     
       {/* Main Content */}
       <div className="relative z-10">
         
@@ -96,9 +97,9 @@ const Content: React.FC = () => {
 
               {/* Right Column - Professional Image */}
               <div className="relative">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
+                <div className="aspect-[11/12] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                   <img
-                    src="/images/about-us/1.jpg"
+                    src="/images/about-us/company.jpg"
                     alt="Professional team at German Steel Contracting"
                     className="w-full h-full object-cover"
                   />
@@ -112,6 +113,8 @@ const Content: React.FC = () => {
             </div>
           </div>
         </section>
+
+        <ChairmanSection />
 
         {/* Section 3: Why German Steel Contracting LLC? */}
         <section 
@@ -155,9 +158,9 @@ const Content: React.FC = () => {
 
               {/* Right Column - Infrastructure Image */}
               <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
+                <div className="aspect-[11/12] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                   <img
-                    src="/images/about-us/1 (1).jpg"
+                    src="/images/home-content.jpg"
                     alt="Modern infrastructure and teamwork"
                     className="w-full h-full object-cover"
                   />
@@ -179,7 +182,7 @@ const Content: React.FC = () => {
           }`}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-3 gap-12 items-start">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Mission Column */}
               <div className="lg:col-span-1">
                 <div className="bg-gradient-to-br from-black/50 to-gray-900/50 p-8 rounded-2xl border border-yellow-400/30 h-full">
@@ -214,31 +217,6 @@ const Content: React.FC = () => {
                       To have strong market presence, a loyal customer base and a reputation for delivering high-quality and reliable steel structures that are built to last.
                     </p>
                   </div>
-                </div>
-              </div>
-
-              {/* Strategic Vision Image */}
-              <div className="lg:col-span-1">
-                <div className="relative h-full min-h-[400px]">
-                  <div className="aspect-[3/4] lg:aspect-auto lg:h-full rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
-                    <img
-                      src="/images/about-us/mv-banner.jpg"
-                      alt="Strategic vision and forward-thinking"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                    
-                    {/* Overlay text */}
-                    <div className="absolute bottom-6 left-6 right-6">
-                      <p className="text-white font-serif text-lg font-semibold">
-                        Building Tomorrow's Infrastructure Today
-                      </p>
-                    </div>
-                  </div>
-                  
-                  {/* Decorative elements */}
-                  <div className="absolute -top-6 -right-6 w-20 h-20 bg-gradient-to-br from-yellow-400/30 to-transparent rounded-full blur-xl"></div>
-                  <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-tl from-yellow-400/20 to-transparent rounded-full blur-2xl"></div>
                 </div>
               </div>
             </div>

@@ -36,7 +36,7 @@ const projects: Project[] = [
     year: "2016",
     location: "Dubai, UAE",
     startDate: "2014",
-    completionDate: "June 2016",
+    completionDate: "April 2016",
     description: "Phase 2 expansion of Dubai Festival City mall, adding new retail, dining zones, and waterfront promenade. The project enhanced shopping and leisure offerings in time for Expo demand, reinforcing its position as a premier mixed-use destination in Dubai.",
     gallery: [
       "/images/projects/selsa2/2.jpg",
@@ -50,10 +50,10 @@ const projects: Project[] = [
     contractor: "Al Futtaim Carillion LLC",
     value: "18M AED",
     image: "/images/projects/Wave Abudhabi/1.jpg",
-    year: "2017",
+    year: "2016",
     location: "Musaffah, Abu Dhabi, UAE",
     startDate: "2016",
-    completionDate: "2017",
+    completionDate: "March 2016",
     description: "A flagship 14,000 m² five‑storey Toyota showroom in Musaffah, integrating sales, service, and spare-parts facilities. Known for its flowing ‘wave’ façade and interactive customer zones, it sets a new benchmark for automotive retail in the region.",
     gallery: [
       "/images/projects/Wave Abudhabi/2.jpg", 
@@ -84,10 +84,10 @@ const projects: Project[] = [
     contractor: "SsangYong Engineering & Construction LLC",
     value: "17M AED",
     image: "/images/projects/Korea Pavilion @ Dubai Expo/1.jpg",
-    year: "2020",
+    year: "2021",
     location: "Dubai, UAE",
     startDate: "2019",
-    completionDate: "October 2020",
+    completionDate: "February 2021",
     description: "Iconic cultural pavilion representing Korea at Expo 2020 Dubai. The project combined innovative steel and façade systems to showcase Korean heritage and innovation through immersive architecture and interactive exhibition spaces.",
     gallery: [
       "/images/projects/Korea Pavilion @ Dubai Expo/2.jpg", 
@@ -96,15 +96,15 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Cloisal – Abu Dhabi Airport",
+    title: "Abu Dhabi Airport Mid Field Terminal II",
     consultant: "KPF/ARUP/AECOM",
     contractor: "TAV-CCC-ARABTEC / Cloisal Co. LLC",
     value: "16M AED",
     image: "/images/projects/Cloisal - Abu Dhabi Airport/1.jpg",
-    year: "2021",
+    year: "2019",
     location: "Abu Dhabi International Airport, UAE",
-    startDate: "2020",
-    completionDate: "2021",
+    startDate: "2019",
+    completionDate: "January 2019",
     description: "Steel-cladded airside infrastructure at Abu Dhabi Airport, enhancing operational capacity and aesthetics. Authorized for terminal extensions, the Cloisal units used precision-engineered steel frameworks and durable facade systems to meet strict aviation standards.",
     gallery: [
       "/images/projects/Cloisal - Abu Dhabi Airport/2.jpg", 
@@ -118,10 +118,10 @@ const projects: Project[] = [
     contractor: "Al Tayer Stocks LLC",
     value: "15M AED",
     image: "/images/projects/Diera City Center/1.jpg",
-    year: "1995",
+    year: "2016",
     location: "Deira, Dubai, UAE",
     startDate: "1993",
-    completionDate: "April 1995",
+    completionDate: "August 2016",
     description: "Early landmark retail development in Deira, featuring steel-based shopping mall structures. The City Center was among Dubai’s pioneering enclosed malls, bringing steel-frame construction to large-scale commercial architecture in the region.",
     gallery: [
       "/images/projects/Diera City Center/2.jpg", 
@@ -172,7 +172,7 @@ const projects: Project[] = [
     year: "2021",
     location: "Dubai, UAE",
     startDate: "September 2019",
-    completionDate: "October 2021",
+    completionDate: "May 2021",
     description: "Sustainable biotope pavilion showcasing Dutch innovations in water, energy and food cycles, built entirely with circular steel systems. Featured an 18 m vertical ‘food cone’ and reusable sheet‑pile structure, earning awards and dismantled post-Expo.",
     gallery: [
       "/images/projects/Netherland Pavilion @ Dubai Expo/2.jpg", 
@@ -206,7 +206,7 @@ const projects: Project[] = [
     year: "2019",
     location: "Yas Island, Abu Dhabi, UAE",
     startDate: "2017",
-    completionDate: "November 2019",
+    completionDate: "October 2019",
     description: "Premium hospitality development on Yas Island featuring steel‑structured guest wings, expansive atriums and podium areas. The hotel integrates modern architectural steel aesthetics with robust engineering to deliver a luxury resort experience.",
     gallery: [
       "/images/projects/Hilton Hotel Yas Island/2.jpg", 
@@ -223,7 +223,7 @@ const projects: Project[] = [
     year: "2018",
     location: "Mirdif, Dubai, UAE",
     startDate: "2016",
-    completionDate: "September 2018",
+    completionDate: "October 2018",
     description: "State‑of‑the‑art educational campus for Bloom World Academy in Mirdif, Dubai. Featuring steel‑frame classrooms, multipurpose hall, and learning support buildings, designed to foster a creative and collaborative academic environment.",
     gallery: [
       "/images/projects/Bloom School/2.jpg", 
@@ -305,10 +305,10 @@ const projects: Project[] = [
     contractor: "Kier International Middle East",
     value: "5.6M AED",
     image: "/images/projects/Talabat Kitchen @ Dubai Expo/1.jpg",
-    year: "2021",
+    year: "2019",
     location: "Expo 2020 Dubai, UAE",
     startDate: "2020",
-    completionDate: "September 2021",
+    completionDate: "November 2019",
     description: "Centralized cloud‑kitchen facility serving Talabat vendors during Expo 2020 Dubai. The steel‑framed installation included modular kitchen pods and efficient service corridors to meet the high‑volume catering demands of the event." ,
     gallery: [
       "/images/projects/Talabat Kitchen @ Dubai Expo/2.jpg", 
@@ -351,15 +351,15 @@ const projects: Project[] = [
   },
   {
     id: 20,
-    title: "Mövenpick Bridge RAK",
+    title: "Mövenpick Hotel and Resort - RAK",
     consultant: "ATKINS",
     contractor: "Al Ali Construction & Development LLC",
     value: "3.7M AED",
     image: "/images/projects/Movenpick Bridge Rak/1.jpg",
-    year: "2020",
+    year: "2021",
     location: "Ras Al Khaimah, UAE",
     startDate: "2018",
-    completionDate: "July 2020",
+    completionDate: "September 2021",
     description: "Iconic pedestrian bridge constructed adjacent to Mövenpick Resort in Ras Al Khaimah. With its lightweight steel arch frames and elegant design, it enhances access and complements the waterfront resort environment.",
     gallery: [
       "/images/projects/Movenpick Bridge Rak/2.jpg", 
@@ -373,10 +373,10 @@ const projects: Project[] = [
     contractor: "Al Shafar Interiors LLC",
     value: "3.3M AED",
     image: "/images/projects/Azerbaijan Pavilion @ Dubai Expo/1.jpg",
-    year: "2021",
+    year: "2020",
     location: "Dubai, UAE",
     startDate: "2019",
-    completionDate: "October 2021",
+    completionDate: "November 2020",
     description: "National pavilion showcasing Azerbaijani culture and innovation at Expo 2020 Dubai. Built with distinctive steel-enclosed spaces and exhibition halls, the pavilion offered immersive experience designs and interactive installations.",
     gallery: [
       "/images/projects/Azerbaijan Pavilion @ Dubai Expo/2.jpg", 
@@ -407,10 +407,10 @@ const projects: Project[] = [
     contractor: "Al Bawardy Contracting LL",
     value: "2.8M AED",
     image: "/images/projects/Waitrose @ Motor City/1.jpg",
-    year: "2022",
+    year: "2019",
     location: "Motor City, Dubai, UAE",
-    startDate: "2020",
-    completionDate: "April 2022",
+    startDate: "2019",
+    completionDate: "July 2019",
     description: "Retail outlet for Waitrose in Motor City, Dubai, featuring steel-framed supermarket design with open interiors and high-quality finishes. Designed to bring premium grocery retail experience to residential communities.",
     gallery: [
       "/images/projects/Waitrose @ Motor City/2.jpg", 
@@ -436,7 +436,7 @@ const projects: Project[] = [
   },
     {
     id: 25,
-    title: "Bays Edge - Al Sahel",
+    title: "Bays Edge @ Business Bay",
     consultant: "ATKINS",
     contractor: "Al Sahel Contracting LLC",
     value: "2.2M AED",
@@ -458,10 +458,10 @@ const projects: Project[] = [
     contractor: "Cemolai Raymond",
     value: "2.1M AED",
     image: "/images/projects/Finland Pavilion @ Dubai Expo/1.jpg",
-    year: "2021",
+    year: "2020",
     location: "Dubai, UAE",
     startDate: "2019",
-    completionDate: "September 2021",
+    completionDate: "April 2020",
     description: "A pavilion showcasing Finnish innovation in sustainable forest-based materials and design. Its sleek steel and timber structure emphasized green principles and modular construction, hosted during Expo 2020 in Dubai.",
     gallery: [
       "/images/projects/Finland Pavilion @ Dubai Expo/2.jpg", 
@@ -475,10 +475,10 @@ const projects: Project[] = [
     contractor: "Electra Exhibitions LLC",
     value: "2.1M AED",
     image: "/images/projects/USA Pavilion @ Dubai Expo/1.jpg",
-    year: "2021",
+    year: "2020",
     location: "Dubai, UAE",
     startDate: "2019",
-    completionDate: "October 2021",
+    completionDate: "September 2020",
     description: "High‑profile USA Pavilion featuring innovative steel framework and immersive exhibit spaces at Expo 2020. Known for its “The Garden” outdoor experience and bold architectural design symbolizing American creativity and openness.",
     gallery: [
       "/images/projects/USA Pavilion @ Dubai Expo/2.jpg", 
@@ -492,10 +492,10 @@ const projects: Project[] = [
     contractor: "RIKO Industrial",
     value: "1.8M AED",
     image: "/images/projects/Slovenia Pavilion @ Dubai Expo/1.jpg",
-    year: "2021",
+    year: "2020",
     location: "Dubai, UAE",
     startDate: "2019",
-    completionDate: "October 2021",
+    completionDate: "October 2020",
     description: "Cultural pavilion highlighting Slovenia’s landscapes and technologies through steel-enhanced exhibition spaces and interactive displays. The design incorporated sustainable materials and bespoke steel detailing for structural and aesthetic impact.",
     gallery: [
       "/images/projects/Slovenia Pavilion @ Dubai Expo/2.jpg", 
@@ -509,10 +509,10 @@ const projects: Project[] = [
     contractor: "GBH International Contracting LLC",
     value: "1.6M AED",
     image: "/images/projects/DEWA R&D/1.jpg",
-    year: "2020",
+    year: "2018",
     location: "Dubai, UAE",
     startDate: "2018",
-    completionDate: "July 2020",
+    completionDate: "July 2018",
     description: "Research & development center for DEWA focusing on renewable energy and smart grid technologies. The steel-framed facility includes labs, offices, and testing zones, built to high sustainability and resilience standards.",
     gallery: [
       "/images/projects/DEWA R&D/2.jpg", 
@@ -634,7 +634,7 @@ const projects: Project[] = [
       </div>
       
       {/* Background Gradient Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-80 pointer-events-none" style={{ zIndex: 2 }} />
+      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-10 pointer-events-none" style={{ zIndex: 2 }} />
       
       {/* Main Content */}
       <div className="relative z-10">
@@ -707,9 +707,9 @@ const projects: Project[] = [
                         <span className="text-white text-sm font-medium">{project.consultant}</span>
                       </div>
                       
-                      <div className="flex justify-between items-center">
+                      <div className='grid grid-cols-[auto,1fr] gap-2'>
                         <span className="text-gray-400 text-sm">Contractor:</span>
-                        <span className="text-white text-sm font-medium">{project.contractor}</span>
+                        <span className="text-white text-sm font-medium break-words text-right">{project.contractor}</span>
                       </div>
                       
                       <div className="flex justify-between items-center">

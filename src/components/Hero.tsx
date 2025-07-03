@@ -200,15 +200,17 @@ const projects: Project[] = [
           </div>
 
           {/* Right Side - Image Card */}
-          <div className="lg:col-span-5 relative">
-            <div className="carousel-card rounded-2xl overflow-hidden transition-all duration-500">
+          <div className="lg:col-span-5 relative z-10">
+            <div className="carousel-card relative z-19 rounded-2xl overflow-hidden transition-all duration-500">
               <div className="relative aspect-[20/10] overflow-hidden">
                 <img
                   src={currentProject.image}
                   alt={currentProject.title}
-                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                  className="w-full h-full object-cover brightness-75 transition-transform duration-700 hover:scale-105 brightness-95"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
+
                 
                 {/* Slide indicator */}
                 <div className="absolute bottom-4 right-4 bg-black/50 backdrop-blur-sm rounded-full px-3 py-1">
@@ -222,7 +224,7 @@ const projects: Project[] = [
             {/* Navigation Arrows */}
             <button
               onClick={prevSlide}
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-full flex items-center justify-center text-yellow-400 hover:bg-yellow-500/20 hover:border-yellow-400 transition-all duration-200"
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-full flex items-center justify-center text-yellow-400 hover:bg-yellow-500/20 hover:border-yellow-400 transition-all duration-200"
               aria-label="Previous project"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -230,7 +232,7 @@ const projects: Project[] = [
 
             <button
               onClick={nextSlide}
-              className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-full flex items-center justify-center text-yellow-400 hover:bg-yellow-500/20 hover:border-yellow-400 transition-all duration-200"
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-full flex items-center justify-center text-yellow-400 hover:bg-yellow-500/20 hover:border-yellow-400 transition-all duration-200"
               aria-label="Next project"
             >
               <ChevronRight className="w-6 h-6" />

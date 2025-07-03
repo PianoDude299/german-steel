@@ -11,6 +11,7 @@ const Navbar: React.FC = () => {
   };
 
   const menuItems = [
+    { name: 'Home', href: '/home'},
     { name: 'About Us', href: '/about' },
     { name: 'Board of Directors', href: '/board' },
     { name: 'Services', href: '/services' },
@@ -29,7 +30,7 @@ const Navbar: React.FC = () => {
                 alt="German Steel Logo"
                 className="w-24 h-24 object-contain rounded-lg"
               />
-              <h1 className="text-3xl font-serif font-semibold text-white">
+              <h1 className="text-2xl font-serif font-semibold text-yellow-400">
                 German Steel Contracting LLC
               </h1>
             </Link>

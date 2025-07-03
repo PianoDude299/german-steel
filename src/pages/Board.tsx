@@ -7,7 +7,7 @@ const boardMembers = [
   {
     name: 'Eid Mohammed Humaid Alhamrani Alshamsi',
     role: 'Chairman',
-    image: '/images/chairman.jpg',
+    image: '/images/sponsor.jpg',
     quote:
       'Mr. Eid Mohammed Alhamrani serves as the Chairman of German Steel Group. ',
     description:
@@ -61,8 +61,8 @@ const Board: React.FC = () => {
       </div>
 
       {/* Background Gradient Overlay */}
-      <div className="fixed inset-0 pointer-events-none z-[1]" style={{ background: 'linear-gradient(to bottom right, rgba(0,0,0,0.85), rgba(30,30,30,0.85))' }} />
-
+      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-10 pointer-events-none" style={{ zIndex: 2 }} />
+      
       {/* Content */}
       <div className="relative z-10">
         <Navbar />
@@ -130,7 +130,7 @@ const Board: React.FC = () => {
                     "
                   </div>
                   <blockquote className="relative z-10 mb-8">
-                    <p className="text-2xl lg:text-3xl font-serif italic text-white leading-relaxed mb-6">
+                    <p className="text-2xl lg:text-2xl font-serif italic text-white leading-relaxed mb-6">
                       {member.quote}
                     </p>
                   </blockquote>

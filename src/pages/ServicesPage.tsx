@@ -108,7 +108,7 @@ const services: Service[] = [
     description: "Expert steel erection services with safety-first approach and precision installation techniques.",
     details: [
       "Skilled erection crew and site personnel",
-      "Compliance with international safety standards",
+      "Compliance with international safety standards (ISO 18001 certified)",
       "Efficient handling of complex structural assemblies",
       "Real-time monitoring of site progress",
       "Integrated coordination with fabrication schedule"
@@ -205,7 +205,7 @@ const services: Service[] = [
       </div>
       
       {/* Background Gradient Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-80 pointer-events-none" style={{ zIndex: 2 }} />
+      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-10 pointer-events-none" style={{ zIndex: 2 }} />
       
       {/* Main Content */}
       <div className="relative z-10">

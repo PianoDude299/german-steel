@@ -39,8 +39,8 @@ const ParticleBackground: React.FC = () => {
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
           size: Math.random() * 3 + 1,
-          speedX: (Math.random() - 0.5) * 0.5,
-          speedY: (Math.random() - 0.5) * 0.5,
+          speedX: (Math.random() - 0.5) * 2.0,
+          speedY: (Math.random() - 0.5) * 2.0,
           opacity: Math.random() * 0.5 + 0.2,
         });
       }
@@ -104,7 +104,7 @@ const ParticleBackground: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed top-0 left-0 w-full pointer-events-none"
+      className="absolute top-0 left-0 w-full h-full pointer-events-none"
       style={{ 
         zIndex: 1,
         height: '100%',

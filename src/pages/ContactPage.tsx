@@ -64,22 +64,27 @@ const ContactPage: React.FC = () => {
     {
       title: "Head Quarters",
       icon: <Building className="w-5 h-5" />,
-      address: "German Steel Cont. LLC,\nNew Industrial Area,\nPO Box. 18275, Ajman"
+      address: "German Steel Cont. LLC\nNew Industrial Area\nPO Box. 18275, Ajman"
     },
     {
       title: "Dubai Branch",
       icon: <Building className="w-5 h-5" />,
-      address: "German Steel Cont. LLC – Dubai Branch,\nAl Qusais 1,\nPO Box. 78517, Dubai"
+      address: "German Steel Cont. LLC – Dubai Branch\nAl Qusais 1\nPO Box. 78517, Dubai"
     },
     {
       title: "Abu Dhabi Branch",
       icon: <Building className="w-5 h-5" />,
-      address: "Capital GSC Contracting LLC,\nMussaffah Industrial 044,\nAbu Dhabi – UAE"
+      address: "Capital GSC Contracting LLC\nMussaffah Industrial 044\nAbu Dhabi – UAE"
     },
     {
-      title: "Umm Al Quwain",
+      title: "Umm Al Quwain Branch",
       icon: <Building className="w-5 h-5" />,
-      address: "German Steel Cont. LLC,\nPO Box. 4100,\nUmm Al Quwain - UAE"
+      address: "German Steel Cont. LLC\nPO Box. 4100\nUmm Al Quwain - UAE"
+    },
+    {
+      title: "Saudi Arabia Branch",
+      icon: <Building className="w-5 h-5" />,
+      address: "German Steel Cont. LLC\n3135, Prince Sultan Bin Abdulaziz\nPO Box. 12232\nRiyadh - Saudi Arabia"
     }
   ];
 
@@ -113,6 +118,12 @@ const ContactPage: React.FC = () => {
       title: "Business Development Manager",
       phone: "+971 58 658 6292",
       email: "nezar-chahin@germansteel.me"
+    },
+    {
+      name: "Mr. Hossam Kamalulden",
+      title: "Business Development Manager",
+      phone: "+971 50 390 1068",
+      email: "hossam@germansteel.me"
     }
   ];
 
@@ -124,7 +135,7 @@ const ContactPage: React.FC = () => {
       </div>
       
       {/* Background Gradient Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-80 pointer-events-none" style={{ zIndex: 2 }} />
+      <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-10 pointer-events-none" style={{ zIndex: 2 }} />
       
       {/* Main Content */}
       <div className="relative z-10">
