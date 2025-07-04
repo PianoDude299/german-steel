@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=MedievalSharp&display=swap');
+
+
+
 
 :root {
   --primary-gold: #FFD700;
@@ -33,6 +38,13 @@ body {
 .font-montserrat {
   font-family: 'Montserrat', sans-serif;
 }
+
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Particle animation */
 @keyframes float {
