@@ -83,12 +83,16 @@ const Content: React.FC = () => {
               {/* Left Column - Company Description */}
               <div className="space-y-6">
                 <p className="text-gray-300 text-lg leading-relaxed font-serif">
-                  German Steel Contracting LLC is a highly regarded privately-owned company headquartered in Ajman, United Arab Emirates. We are proud to have branch companies and licenses in Dubai, Abu Dhabi, Sharjah and Umm Al Quwain Emirates. Furthermore, we are expanding our reach to the Middle East and Africa, having already executed projects in Qatar, Egypt, and Ghana. With an 18-year track record of success, we have achieved consistent growth and profitability, demonstrating our commitment to quality and excellence.
+                  German Steel Contracting LLC is a highly regarded privately-owned company headquartered in Ajman, United Arab Emirates. We are proud to have branch companies and licenses in Dubai, Abu Dhabi, Umm Al Quwain Emirates & at Riyadh - KSA. Furthermore, we are expanding our reach to the Middle East and Africa, having already executed projects in Qatar, Egypt, and Ghana. With an 18-year track record of success, we have achieved consistent growth and profitability, demonstrating our commitment to quality and excellence.
                 </p>
                 
                 <p className="text-gray-300 text-lg leading-relaxed font-serif">
-                  We are a comprehensive steelwork provider, specializing in Structural design, manufacturing, and erection services for a broad range of steel structures. Our portfolio encompasses projects varying from simple structures to those with intricate complexity and architectural / functional prominence. As a licensed contractor in Dubai, we possess the authorization to undertake projects in the G + Unlimited category.
+                  We are a comprehensive steelwork provider, specializing in Structural design, manufacturing, and erection services for a broad range of steel structures. Our portfolio encompasses projects varying from simple structures to those with intricate complexity and architectural / functional prominence.
+                  <span className="text-yellow-400 font-bold  underline">
+                    As a licensed contractor in Dubai, we possess the authorization to undertake projects in the G + Unlimited category.
+                  </span>
                 </p>
+
                 
                 <p className="text-gray-300 text-lg leading-relaxed font-serif">
                   At German Steel Contracting LLC, we attribute our success to our highly technical design team, unwavering commitment to high-quality work, and timely completion of projects. We prioritize fostering strong relationships with our clients, resulting in repeat business and mutual benefits. Our workforce comprises skilled, enthusiastic, and competent professionals who work in harmony as a dedicated team to achieve our and our client's targets.

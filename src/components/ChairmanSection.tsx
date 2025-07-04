@@ -54,7 +54,7 @@ const ChairmanSection: React.FC = () => {
                   className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 border-2 border-yellow-400 shadow-2xl transition-all duration-300 group-hover:scale-105 group-hover:rotate-2"
                   style={{
                     
-                    backgroundImage: 'url(/images/chairman.jpg)',
+                    backgroundImage: 'url(/images/chairman2.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
@@ -86,7 +86,7 @@ const ChairmanSection: React.FC = () => {
             {/* Quote text */}
             <blockquote className="relative z-10 mb-8">
               <p className="text-2xl lg:text-2xl font-serif italic text-white leading-relaxed mb-6">
-                "At German Steel, steel engineering is not merely a craft—it is a commitment. Over the past two decades, we have played a vital role in shaping the UAE’s skyline with precision-driven structures that stand the test of time.
+                "At German Steel, steel engineering is not merely a craft—it is a commitment. Over the past two decades, we have played a vital role in shaping the UAE’s skyline with precision-driven structures that stand the test of time.<br></br><br></br>
 From complex high-rise frames to fast-track industrial solutions, our legacy is built on engineering integrity, customer trust, and an unrelenting focus on quality."
 
               </p>
@@ -96,7 +96,7 @@ From complex high-rise frames to fast-track industrial solutions, our legacy is 
             <div className="relative z-10">
               <p className="text-gray-400 text-lg leading-relaxed font-sans">
                 Under my leadership, German Steel has evolved into one of the UAE's most trusted names in structural steel contracting. With full in-house capability—from design, fabrication, to on-site erection—we bring every project to life with safety, speed, and structural excellence at its core.<br></br><br></br>
-                Our continuous investment in innovation, workforce development, and compliance with international standards reflects our vision: to be the partner of choice for steel solutions that define modern infrastructure.
+                Our continuous investment in innovation, workforce development, and compliance with international standards reflects our vision: <i><u><b>to be the partner of choice for steel solutions that define modern infrastructure.</b></u></i><br></br><br></br>
                 We remain committed to delivering excellence across every project, large or small, as we continue to contribute to the region’s ambitious growth with purpose and pride.
               </p>
             </div>

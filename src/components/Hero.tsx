@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "DEWA R&D Lab",
-    date: "March 2020",
+    date: "July 2018",
     description: "Dubai Electricity & Water Authority’s cutting-edge solar R&D centre.",
     location: "Dubai, UAE",
     image: "/images/index-banner/01-DEWA-R&D-Lab.jpg"
@@ -26,7 +26,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Azerbaijan Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "November 2020",
     description: "Eco‑focused pavilion with a leaf‑shaped solar canopy and garden.",
     location: "Dubai, UAE",
     image: "/images/index-banner/02-Azerbaijan-Pavilion.jpg"
@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Korea Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "February 2021",
     description: "Mobility‑themed pavilion with dynamic façade and skywalk ramps.",
     location: "Dubai, UAE",
     image: "/images/index-banner/03-Korea-Pavilion.jpg"
@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "Toyota Showroom Abu Dhabi",
-    date: "2022",
+    date: "March 2016",
     description: "State‑of‑the‑art automotive showroom showcasing Toyota models.",
     location: "Abu Dhabi, UAE",
     image: "/images/index-banner/04-Toyota-Showroom-Abu-Dhab-i20170724-Al-Futtaim-Motors-HM-03.jpg"
@@ -50,7 +50,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "DFC Mall",
-    date: "January 2007",
+    date: "April 2016",
     description: "Dubai Festival City Mall, major waterfront retail & leisure complex.",
     location: "Dubai, UAE",
     image: "/images/index-banner/06-DFC-Mall.jpg"
@@ -58,7 +58,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: "Netherland Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "May 2021",
     description: "Netherlands pavilion highlighting sustainable urban design.",
     location: "Dubai, UAE",
     image: "/images/index-banner/07-Netherland-Pavilion.jpg"
@@ -66,7 +66,7 @@ const projects: Project[] = [
   {
     id: 7,
     title: "Bloom Academy School Dubai",
-    date: "2023",
+    date: "October 2018",
     description: "Modern international school focused on holistic education.",
     location: "Dubai, UAE",
     image: "/images/index-banner/08-Bloom-School.jpg"
@@ -74,9 +74,9 @@ const projects: Project[] = [
   {
     id: 8,
     title: "Mövenpick Hotel",
-    date: "2020",
+    date: "September 2021",
     description: "Luxury hotel offering premium hospitality in Dubai.",
-    location: "Dubai, UAE",
+    location: "Ras Al Khaimah, UAE",
     image: "/images/index-banner/09-Movenpick-Resort.jpg"
   },
   {
@@ -90,15 +90,15 @@ const projects: Project[] = [
   {
     id: 10,
     title: "Talabat @ Dubai Expo",
-    date: "October 2021",
+    date: "November 2019",
     description: "Interactive food‑service pavilion by the Talabat brand.",
     location: "Dubai, UAE",
     image: "/images/index-banner/11-Talabat.jpg"
   },
   {
     id: 11,
-    title: "Cloisal - Abu Dhabi Airport",
-    date: "2022",
+    title: "Abu Dhabi Airport Mid Field Terminal II",
+    date: "January 2019",
     description: "Modern retail lounge area within Abu Dhabi International Airport.",
     location: "Abu Dhabi, UAE",
     image: "/images/index-banner/12-Midfield-Terminal.jpg"
@@ -106,7 +106,7 @@ const projects: Project[] = [
   {
     id: 12,
     title: "Hilton Hotel Yas Island",
-    date: "2021",
+    date: "October 2019",
     description: "Resort‑style Hilton overlooking Yas Marina and Abu Dhabi GP circuit.",
     location: "Abu Dhabi, UAE",
     image: "/images/index-banner/13-Hilton-Hotel.jpg"
@@ -114,7 +114,7 @@ const projects: Project[] = [
   {
     id: 13,
     title: "USA Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "September 2020",
     description: "Immersive pavilion showcasing US innovation and culture.",
     location: "Dubai, UAE",
     image: "/images/index-banner/14-USA-Pavilion.jpg"
@@ -122,7 +122,7 @@ const projects: Project[] = [
   {
     id: 14,
     title: "Slovenia Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "October 2020",
     description: "Slovenian pavilion themed on green, active & healthy living.",
     location: "Dubai, UAE",
     image: "/images/index-banner/15-Slovanian-pavilion.jpg"
@@ -130,7 +130,7 @@ const projects: Project[] = [
   {
     id: 15,
     title: "Deira City Center",
-    date: "November 1995",
+    date: "August 2016",
     description: "Flagship Majid Al Futtaim mall in historic Deira district.",
     location: "Dubai, UAE",
     image: "/images/index-banner/16-Diera-City-Center.jpg"
@@ -138,7 +138,7 @@ const projects: Project[] = [
   {
     id: 16,
     title: "Waitrose @ Motor City",
-    date: "2022",
+    date: "July 2019",
     description: "Upscale supermarket branch serving Motor City community.",
     location: "Dubai, UAE",
     image: "/images/index-banner/17-Waitrose.jpg"
@@ -146,7 +146,7 @@ const projects: Project[] = [
   {
     id: 17,
     title: "Finland Pavilion @ Dubai Expo",
-    date: "October 2021",
+    date: "April 2020",
     description: "Nordic pavilion highlighting Finnish innovation & nature.",
     location: "Dubai, UAE",
     image: "/images/index-banner/18-Finland-Pavilion.jpg"

@@ -26,7 +26,7 @@ const ContactBar: React.FC = () => {
               
               <div className="flex items-center space-x-2 text-white">
                 <Clock className="w-4 h-4" />
-                <span className="font-semibold text-sm">Mon–Fri: 9 AM – 6 PM</span>
+                <span className="font-semibold text-sm">Mon–Sat: 8 AM – 6 PM</span>
               </div>
             </div>
 

@@ -28,9 +28,9 @@ const Navbar: React.FC = () => {
               <img
                 src="/images/logo.png"
                 alt="German Steel Logo"
-                className="w-24 h-24 object-contain rounded-lg"
+                className="w-20 h-20 object-contain rounded-lg"
               />
-              <h1 className="text-2xl font-serif font-semibold text-yellow-400">
+              <h1 className="text-2xl font-serif font-semibold text-white">
                 German Steel Contracting LLC
               </h1>
             </Link>
@@ -42,9 +42,9 @@ const Navbar: React.FC = () => {
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-8 h-8" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-8 h-8" />
             )}
           </button>
         </div>
