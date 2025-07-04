@@ -9,9 +9,9 @@ const boardMembers = [
     role: 'Chairman',
     image: '/images/sponsor.jpg',
     quote:
-      'Mr. Eid Mohammed Alhamrani serves as the Chairman of German Steel Group. ',
+      'Mr. Eid Mohammed Alhamrani serves as the Chairman of German Steel Group. He brings a wealth of experience from his leadership roles across various governmental and private sector institutions in the UAE.',
     description:
-      'With a distinguished career spanning various leadership roles in both governmental and private sector organizations, he brings invaluable insight, strategic vision, and governance expertise to the company.'
+      'In addition to providing strategic oversight, Mr. Alhamrani plays a pivotal role in aligning the company’s operations with local regulatory frameworks and compliance standards. His deep understanding of governmental procedures and regulatory dynamics has been instrumental in securing approvals, maintaining licensing integrity, and ensuring the group’s adherence to national industrial and commercial policies. His guidance continues to reinforce German Steel’s position as a compliant, reputable, and forward-aligned contracting entity in the UAE market.'
     },
   {
     name: 'Faisal Chungath',
