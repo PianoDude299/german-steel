@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        oldenglish: ['"Manufacturing Consent"', 'cursive'],
+        engravers: ['EngraversOldEnglish', 'serif'], 
       },
     },
   },

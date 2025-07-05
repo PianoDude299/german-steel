@@ -101,7 +101,7 @@ const Content: React.FC = () => {
 
               {/* Right Column - Professional Image */}
               <div className="relative">
-                <div className="aspect-[11/12] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
+                <div className="aspect-[20/15] rounded-2xl overflow-hidden border border-yellow-400/30 shadow-2xl">
                   <img
                     src="/images/about-us/company.jpg"
                     alt="Professional team at German Steel Contracting"
