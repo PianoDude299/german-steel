@@ -39,9 +39,9 @@ const ParticleBackground: React.FC = () => {
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
           size: Math.random() * 3 + 1,
-          speedX: (Math.random() - 0.5) * 2.0,
-          speedY: (Math.random() - 0.5) * 2.0,
-          opacity: Math.random() * 0.2 + 0.1,
+          speedX: (Math.random() - 0.5) * 0.5,
+          speedY: (Math.random() - 0.5) * 0.5,
+          opacity: Math.random() * 0.1 + 0.05,
         });
       }
     };

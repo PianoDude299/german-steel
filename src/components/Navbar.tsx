@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                 className="w-20 h-20 object-contain rounded-lg"
               />
               <h1 className="text-2xl font-serif font-semibold text-white">
-                <span className="font-engravers tracking-wide text-2xl">GERMAN</span> Steel Contracting LLC
+                <span className="font-engravers tracking-wide text-3xl">GERMAN</span> Steel Contracting LLC
               </h1>
 
             </Link>
