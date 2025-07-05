@@ -18,7 +18,7 @@ const boardMembers = [
     role: 'Chief Executive Officer(CEO)',
     image: '/images/chairman2.jpg',
     quote: 'Mr. Faisal Chungath is the Chief Executive Officer and Managing Director of German Steel Group. He holds a Bachelor\'s degree in Civil Engineering from the College of Engineering, Trivandrum, and a Master’s degree in Structural Engineering from Christ University.',
-    description:'Having moved to the UAE in 2000, Mr. Faisal has gained extensive experience across the structural steel industry. He began his career in India, where he gained years of hands-on experience in the structural steel industry. In 2000, he relocated to the UAE and continued to build his expertise in steel industry through various leadership roles. In 2007, leveraging his technical acumen and entrepreneurial drive, he established German Steel Contracting LLC, which has since grown into a leading name in steel engineering and construction across the Middle East.'
+    description:'He began his career in India, where he gained years of hands-on experience in the structural steel industry. In 2000, he relocated to the UAE and continued to build his expertise in steel industry through various leadership roles. In 2007, leveraging his technical acumen and entrepreneurial drive, he established German Steel Contracting LLC, which has since grown into a leading name in steel engineering and construction across the Middle East.'
   },
   {
     name: 'Zubair Mozhikkal',
